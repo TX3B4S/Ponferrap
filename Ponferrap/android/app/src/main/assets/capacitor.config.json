@@ -1,0 +1,6 @@
+{
+	"appId": "com.Ponferrap.app",
+	"appName": "Ponferrap",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
