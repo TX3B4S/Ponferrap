@@ -1,6 +1,9 @@
-package com.Ponferrap.app;
-
+package com.ionicsecurestorage.app;
+import android.os.Bundle;
 import com.getcapacitor.BridgeActivity;
+import com.getcapacitor.Plugin;
+
+import java.util.ArrayList;
 
 import com.whitestein.securestorage.SecureStoragePlugin;
 
@@ -17,4 +20,3 @@ public class MainActivity extends BridgeActivity {
     }});
   }
 }
-
