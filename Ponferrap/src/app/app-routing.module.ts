@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'tpv',
+    loadChildren: () => import('./tpv/tpv.module').then( m => m.TpvPageModule)
+  },
+  {
+    path: 'inventario',
+    loadChildren: () => import('./inventario/inventario.module').then( m => m.InventarioPageModule)
+  },
+  {
+    path: 'stock',
+    loadChildren: () => import('./stock/stock.module').then( m => m.StockPageModule)
+  },
 ];
 
 @NgModule({
