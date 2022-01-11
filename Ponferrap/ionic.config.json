@@ -1,7 +1,0 @@
-{
-  "name": "Ponferrap",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
